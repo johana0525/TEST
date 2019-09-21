@@ -20,3 +20,6 @@ Route::get('/Factura/crear', 'FacturaController@create');
 Route::get('/Factura/store/request', 'FacturaController@store');
 Route::get('/Factura/{id}','FacturaController@show');
 
+
+//otras rutas
+Route::get('/Factura','FacturaController@prueba');
